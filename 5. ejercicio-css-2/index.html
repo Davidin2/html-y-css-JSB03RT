@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ejercicio HTML 1</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Nombre</legend>
+                <label for="nombre"></label>
+                <input
+                    id="nombre"
+                    type="text"
+                    name="campo1"
+                    required
+                    autofocus
+                />
+            </fieldset>
+            <fieldset>
+                <legend>Correo electrónico</legend>
+                <label for="email"></label>
+                <input id="email" type="email" name="campo2" required />
+            </fieldset>
+            <fieldset>
+                <legend>URL</legend>
+                <label for="url"></label>
+                <input
+                    id="url"
+                    type="url"
+                    name="campo3"
+                    placeholder="Escribe la URL de tu página web personal"
+                />
+            </fieldset>
+            <fieldset>
+                <legend>Fecha</legend>
+                <label for="fecha"></label>
+                <input id="fecha" type="date" name="campo4" />
+            </fieldset>
+            <fieldset>
+                <legend>Tiempo</legend>
+                <label for="tiempo"></label>
+                <input id="tiempo" type="time" name="campo5" />
+            </fieldset>
+            <fieldset>
+                <legend>Fecha y hora</legend>
+                <label for="fecha_y_hora"></label>
+                <input id="fecha_y_hora" type="datetime" name="campo6" />
+            </fieldset>
+            <fieldset>
+                <legend>Mes</legend>
+                <label for="mes"></label>
+                <input id="mes" type="month" name="campo7" />
+            </fieldset>
+            <fieldset>
+                <legend>Semana</legend>
+                <label for="semana"></label>
+                <input id="semana" type="week" name="campo8" />
+            </fieldset>
+            <fieldset>
+                <legend>Numero</legend>
+                <label for="numero"></label>
+                <input
+                    id="numero"
+                    type="number"
+                    name="campo9"
+                    min="-10"
+                    max="10"
+                />
+            </fieldset>
+            <fieldset>
+                <legend>Teléfono</legend>
+                <label for="telefono"></label>
+                <input
+                    id="telefono"
+                    type="text"
+                    value="610511318"
+                    readonly
+                    name="campo10"
+                />
+            </fieldset>
+            <fieldset>
+                <legend>Termino de búsqueda</legend>
+                <label for="busqueda"></label>
+                <input id="busqueda" type="search" name="campo11" disabled />
+            </fieldset>
+            <fieldset>
+                <legend>Color favorito</legend>
+                <label for="color"></label>
+                <input id="color" type="color" name="campo12" />
+            </fieldset>
+            <fieldset>
+                <input class="boton" type="submit" value="Enviar" />
+            </fieldset>
+        </form>
+    </body>
+</html>
